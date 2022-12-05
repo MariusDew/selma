@@ -1,0 +1,399 @@
+body {
+    margin: 0px;
+    background-color: green;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    height: 3%;
+    width: 100%;
+    background-color: green;
+    font-size: 30px;
+}
+
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    flex-direction: row;
+}
+
+#header2 {
+    height: 100%;
+    width: 30%;
+}
+
+#header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+    flex-direction: row;
+}
+
+.menu {
+    text-align: center;
+    height: 50%;
+    width: 30%;
+    background-color: yellow;
+    border: 2px solid white;
+    border-radius: 45%;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-size: 1rem;
+}
+
+#hamster_list_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+#hamster_list {
+    width: 10%;
+    height: 100%;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    color: white;
+}
+
+#footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+#lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    flex-direction: row;
+}
+
+#important_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+    font-size: 4rem;
+}
+
+#courses {
+    font-size: 10rem;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: green;
+    color: black;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.dropdown {
+    right: 0px;
+    display: inline-block;
+    width: 25%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    border: black;
+    right: 0;
+    min-width: 100px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: coral;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+#phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+
+#phone_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    flex-direction: row;
+}
+
+@media only screen and (min-width: 600px) {
+    #phone {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    #hero {
+        height: 19.5%;
+    }
+    
+    #middle_menu {
+        height: 5%
+    }
+    
+    #slogan {
+        height: 20%;
+    }
+    
+    #reviews_container {
+        height: 65%;
+    }
+
+    .information {
+        font-size: 2rem;
+    }
+
+    #contact {
+        font-size: 2rem;
+    }
+
+    #better {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    #hero {
+        height: 16.5%;
+    }
+    
+    #middle_menu {
+        height: 5%
+    }
+    
+    #slogan {
+        height: 20%;
+    }
+    
+    #reviews_container {
+        height: 65%;
+    }
+
+    .information {
+        font-size: 2rem;
+    }
+
+    #contact {
+        font-size: 2rem;
+    }
+
+    #better {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #hero {
+        height: 15.4%;
+    }
+    
+    #middle_menu {
+        height: 5%
+    }
+    
+    #slogan {
+        height: 20%;
+    }
+    
+    #reviews_container {
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #hero {
+        height: 14.2%;
+    }
+    
+    #middle_menu {
+        height: 5%
+    }
+    
+    #slogan {
+        height: 20%;
+    }
+    
+    #reviews_container {
+        height: 65%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #container {
+        height: 2500px;
+    }
+
+    #hero {
+        height: 14.4%;
+    }
+
+    #slogan {
+        height: 30%;
+    }
+
+    #content {
+        height: 100%;
+    }
+
+    #footer {
+        height: 50%
+    }
+
+    #middle_menu {
+        display: none;
+    }
+
+    #header1 {
+        display: none;
+    }
+
+    #header2 {
+        display: none;
+    }
+
+    #header3 {
+        display: none;
+    }
+    #reviews_title {
+        font-size: 2rem;
+    }
+
+    .information {
+        font-size: 3vh;
+    }
+
+    #contact {
+        font-size: 3vh;
+    }
+
+    .info {
+        font-size: 2vh;
+        height: 30%;
+    }
+
+    #none {
+        font-size: 2vh;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    #footer_phone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #footer2_info {
+        display: none;
+    }
+
+    .information {
+        height: 50%;
+    }
+
+    .info {
+        height: 50%;
+    }
+
+    #hero {
+        height: 10.5%;
+    }
+}
+
+@media only screen and (max-width: 394px) {
+    #hero {
+        height: 10.3%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    #hero {
+        height: 9.8%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #hero {
+        height: 9.3%;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    #container {
+        height: 2000px;
+    }
+
+    #footer img {
+        display: none;
+    }
+
+    #footer {
+        height: 20%;
+    }
+
+    #hero {
+        height: 7%;
+    }
+}
+
