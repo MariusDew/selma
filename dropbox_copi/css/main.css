@@ -1,0 +1,55 @@
+#container-parent {
+    height: 700px;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid red 2px;
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+#drip_logo {
+    width: 10%;
+    height: 100;
+}
+
+#box_2 {
+    width: 40%;
+    font-size: 45px;
+    font-family: "verdana", "Courier New", monospace;
+}
+
+#box_3 {
+    width: 40%;
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.box_4-5 {
+    width: 30%;
+}
+
+#box_6 {
+    width: 35%;
+}
+

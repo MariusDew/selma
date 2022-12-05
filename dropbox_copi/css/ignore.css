@@ -1,0 +1,112 @@
+#kake-parent {
+    display: flex;
+    border: solid yellow 2px;
+    flex-direction: row;
+    height: 580px;
+}
+
+#eplekake-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    border: solid black 1px;
+    background-color: lightgreen;
+    font-size: 50px;
+}
+
+#brownie-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    border: solid black 1px;
+    background-color: pink;
+    flex-direction: column;
+}
+
+#sjokoladekake-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    border: solid black 1px;
+    background-color: lightgreen;
+    font-size: 100px;
+}
+
+#glasur {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: pink;
+    display: flex;
+    border: solid yellow 2px;
+    flex-direction: row;
+}
+
+#melis {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: lightskyblue;
+    font-size: 6px;
+}
+
+#enda_en_box {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: lightskyblue;
+    font-size: 6px;
+}
+
+#kakao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    border: solid black 1px;
+    background-color: lightskyblue;
+    font-size: 60px;
+}
+
+#sukker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    border: solid black 1px;
+    background-color: lightskyblue;
+    font-size: 60px;
+}
+
+#mel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    border: solid black 1px;
+    background-color: lightskyblue;
+    font-size: 60px;
+}
+
+#egg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    border: solid black 1px;
+    background-color: lightskyblue;
+    font-size: 60px;
+}
